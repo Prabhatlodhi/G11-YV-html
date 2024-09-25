@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.check{
+    border: 1px solid red;
+}
+
+.parent-container{
+    border: 2px solid black;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: auto auto auto;
+}
+
+.child{
+    /* width: 200px; */
+    height: 200px;
+    background-color: bisque;
+    border: 1px solid blue;
+}
